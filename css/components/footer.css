@@ -38,3 +38,16 @@
     }
 
 }
+
+
+/* iPad Air */
+@media (max-width: 820px){
+    .footer{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .info{
+        padding: 10px 0px;
+    }
+}
