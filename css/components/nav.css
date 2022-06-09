@@ -1,12 +1,11 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
     align-items: center;
     background-color: #A95F3A;
     -webkit-box-shadow: 0px 5px 18px 10px rgba(63,63,63,0.18); 
     box-shadow: 0px 5px 18px 10px rgba(63,63,63,0.18);
-    width: 97%;
+    width: 100%;
     height: 70px;
     position: fixed;
     z-index: 10;
@@ -23,5 +22,61 @@ nav a:hover{
     color: rgb(224, 224, 224);
 }
 
+
+/* Menu mobile */
+.menu-icon{
+    fill: white;
+    display: none;
+}
+
+
+.mobile-menu{
+    display: none;
+    width:100vw;
+    height:100vh;
+    background: white;
+    z-index: 100;
+    position: absolute;
+}
+
+.nav-links-mobile{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-links-mobile a{
+    color: black;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.cross{
+    position: absolute;
+    right: 0;
+    padding: 30px;
+}
+
+.open{
+    display: block;
+}
+  
+.no-overflow{
+    overflow: hidden;
+}
+
+
+/* iPhone XR */
 @media (max-width: 414px){
+    .nav-links{
+        display: none;
+    }
+
+    .menu-icon{
+        display: flex;
+        padding-right: 20px;
+    }
 }

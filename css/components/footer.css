@@ -2,8 +2,7 @@
     background-color: black;
     display: flex;
     justify-content: space-between;
-    width: 100vw;
-    /* ça coupe quand je mets 100vw */
+    width: calc(100vw - 100px);
     height: 20vh;
     color: white;
     padding: 50px;

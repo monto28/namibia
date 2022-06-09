@@ -26,6 +26,10 @@ a{
     transition: 0.3s ease-out;
 }
 
+.logo{
+    padding-left: 20px;
+}
+
 h1{
     font-family: 'Tenor Sans', sans-serif;
     color: white;
@@ -219,6 +223,12 @@ svg{
 
     .img-6{
         width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .img-2{
+        width: 100%;
+        height: 250px;
         padding-bottom: 50px;
     }
 
